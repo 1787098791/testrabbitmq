@@ -1,20 +1,20 @@
 package com.freedom.testrabbitmq.config;
 
-import com.rabbitmq.client.AMQP;
-import com.rabbitmq.client.impl.AMQImpl;
+import com.freedom.testrabbitmq.message.MyJsonMessageConvert;
+import com.freedom.testrabbitmq.message.MyTextMessageConvert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
-import org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils;
 import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.amqp.support.converter.ContentTypeDelegatingMessageConverter;
+import org.springframework.amqp.support.converter.MessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.MediaType;
 
 import java.util.HashMap;
-import java.util.Map;
 
 
 /**
@@ -24,7 +24,7 @@ import java.util.Map;
  * @version:
  */
 @Configuration
-public class RabbitMqConfig {
+public class RabbitMqConfig{
     private static  final  Logger log = LoggerFactory.getLogger(RabbitMqConfig.class);
 
     private final String queueName="hello_queue";
@@ -134,7 +134,7 @@ public class RabbitMqConfig {
 
     //插件定义延时队列
 
-    @Bean
+    /*@Bean
     public Queue immediateQueue() {
 
 
@@ -154,7 +154,7 @@ public class RabbitMqConfig {
                                  @Qualifier("customExchange") CustomExchange customExchange) {
         return BindingBuilder.bind(queue).to(customExchange).with(DELAYED_ROUTING_KEY).noargs();
     }
-
+*/
 
 
 
@@ -167,6 +167,7 @@ public class RabbitMqConfig {
         RabbitTemplate rabbitTemplate = new RabbitTemplate(connectionFactory);
         //必须设置Mandatory为true,发送失败会返回信息给生产者(返回回调)
         rabbitTemplate.setMandatory(true);
+        rabbitTemplate.setMessageConverter(new MyJsonMessageConvert());
         rabbitTemplate.setConfirmCallback(new RabbitTemplate.ConfirmCallback() {
             @Override
             public void confirm(CorrelationData correlationData, boolean ack, String cause) {
@@ -180,6 +181,14 @@ public class RabbitMqConfig {
             }
         });
         return rabbitTemplate;
+    }
+
+    @Bean
+    public MessageConverter messageConverter() {
+        ContentTypeDelegatingMessageConverter messageConverter = new ContentTypeDelegatingMessageConverter();
+        messageConverter.addDelegate(MediaType.APPLICATION_JSON_VALUE, new MyJsonMessageConvert());
+        messageConverter.addDelegate(MediaType.TEXT_PLAIN_VALUE, new MyTextMessageConvert());
+        return messageConverter;
     }
 
     /**

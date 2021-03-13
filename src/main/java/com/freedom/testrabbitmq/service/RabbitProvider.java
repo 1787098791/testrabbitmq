@@ -1,6 +1,7 @@
 package com.freedom.testrabbitmq.service;
 
 import com.freedom.testrabbitmq.config.RabbitMqConfig;
+import com.freedom.testrabbitmq.model.Person;
 import org.springframework.amqp.AmqpException;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessagePostProcessor;
@@ -24,7 +25,10 @@ public class RabbitProvider {
 
     public void send(){
 
-        rabbitTemplate.convertAndSend("hello_exchange","hello_rabbit","hello world !!!");
+        Person person = new Person();
+        person.setName("小明");
+        person.setAge(25);
+        rabbitTemplate.convertAndSend("hello_exchange","hello_rabbit",person);
     }
 
     public void sendByTime(long time){
@@ -41,12 +45,16 @@ public class RabbitProvider {
         });
     }
 
-    public void sendByPlugins(long time){
+    /*public void sendByPlugins(long time){
         rabbitTemplate.convertAndSend("delay.queue.demo.delay.exchange","delay.queue.demo.delay.routingkey","hello world !!!",a->{
             a.getMessageProperties().setDelay(Integer.valueOf(String.valueOf(time)));
             return a;
         });
-    }
+    }*/
 
+    public void sendTestMessageConvert(){
+
+        rabbitTemplate.convertAndSend("test-exchange","test-key","福利蛋");
+    }
 
 }

@@ -1,0 +1,181 @@
+2020-12-10 14:14:28.038  INFO 2668 --- [main] c.f.t.TestrabbitmqApplication            : Starting TestrabbitmqApplication on USER-20160710BY with PID 2668 (E:\study-project\testrabbitmq\target\classes started by Administrator in E:\study-project\testrabbitmq)
+2020-12-10 14:14:28.086  INFO 2668 --- [main] c.f.t.TestrabbitmqApplication            : No active profile set, falling back to default profiles: default
+2020-12-10 14:14:30.765  INFO 2668 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$665604c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-10 14:14:31.472  INFO 2668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-10 14:14:31.503  INFO 2668 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 14:14:31.503  INFO 2668 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-12-10 14:14:31.525  INFO 2668 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;NPM;C:\ProgramData\Oracle\Java\javapath;F:\apache-maven-3.6.0\bin;D:\MySQL\MySQL Server 5.5\bin;C:\Program Files\Java\jdk1.8.0_152\bin;D:\PKPM\EXPPWI;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;D:\MyGit\cmd;D:\TortoiseGit\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;H:\subversion\bin;H:\tortoisesvn\bin;D:\nodejs\;G:\MYSOURCE\selenium;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2020-12-10 14:14:31.675  INFO 2668 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 14:14:31.676  INFO 2668 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3168 ms
+2020-12-10 14:14:31.766  INFO 2668 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-12-10 14:14:31.778  INFO 2668 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-10 14:14:31.779  INFO 2668 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-12-10 14:14:31.779  INFO 2668 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-12-10 14:14:31.779  INFO 2668 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-12-10 14:14:32.331  INFO 2668 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 14:14:32.829  INFO 2668 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.174.133:5672]
+2020-12-10 14:14:32.923  INFO 2668 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6ebd78d1:0/SimpleConnection@7cedfa63 [delegate=amqp://rabbit@192.168.174.133:5672/, localPort= 50101]
+2020-12-10 14:14:33.246  INFO 2668 --- [SimpleAsyncTaskExecutor-1] c.f.testrabbitmq.service.RabbitConsumer  : 接收成功！！！
+2020-12-10 14:14:33.247  INFO 2668 --- [SimpleAsyncTaskExecutor-1] c.f.testrabbitmq.service.RabbitConsumer  : 接收成功！！！
+2020-12-10 14:14:33.262  INFO 2668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-10 14:14:33.266  INFO 2668 --- [main] c.f.t.TestrabbitmqApplication            : Started TestrabbitmqApplication in 6.749 seconds (JVM running for 9.421)
+2020-12-10 14:27:26.383  INFO 10524 --- [main] c.f.t.TestrabbitmqApplication            : Starting TestrabbitmqApplication on USER-20160710BY with PID 10524 (E:\study-project\testrabbitmq\target\classes started by Administrator in E:\study-project\testrabbitmq)
+2020-12-10 14:27:26.387  INFO 10524 --- [main] c.f.t.TestrabbitmqApplication            : No active profile set, falling back to default profiles: default
+2020-12-10 14:27:27.600  INFO 10524 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8f01008a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-10 14:27:27.915  INFO 10524 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-10 14:27:27.932  INFO 10524 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 14:27:27.933  INFO 10524 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-12-10 14:27:27.940  INFO 10524 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;NPM;C:\ProgramData\Oracle\Java\javapath;F:\apache-maven-3.6.0\bin;D:\MySQL\MySQL Server 5.5\bin;C:\Program Files\Java\jdk1.8.0_152\bin;D:\PKPM\EXPPWI;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;D:\MyGit\cmd;D:\TortoiseGit\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;H:\subversion\bin;H:\tortoisesvn\bin;D:\nodejs\;G:\MYSOURCE\selenium;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2020-12-10 14:27:28.032  INFO 10524 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 14:27:28.032  INFO 10524 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1532 ms
+2020-12-10 14:27:28.057  INFO 10524 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-12-10 14:27:28.061  INFO 10524 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-10 14:27:28.062  INFO 10524 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-12-10 14:27:28.062  INFO 10524 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-12-10 14:27:28.062  INFO 10524 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-12-10 14:27:28.349  INFO 10524 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 14:27:28.624  INFO 10524 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.174.133:5672]
+2020-12-10 14:27:28.659  INFO 10524 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#3c291aad:0/SimpleConnection@340b7ef6 [delegate=amqp://rabbit@192.168.174.133:5672/, localPort= 51519]
+2020-12-10 14:27:28.843  INFO 10524 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-10 14:27:28.847  INFO 10524 --- [main] c.f.t.TestrabbitmqApplication            : Started TestrabbitmqApplication in 3.091 seconds (JVM running for 4.784)
+2020-12-10 14:29:36.158  INFO 10524 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-10 14:29:36.159  INFO 10524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-10 14:29:36.189  INFO 10524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 30 ms
+2020-12-10 14:29:36.359  INFO 10524 --- [AMQP Connection 192.168.174.133:5672] c.f.testrabbitmq.config.RabbitMqConfig   : 消息发送成功:correlationData(null),ack(true),cause(null)
+2020-12-10 14:29:36.449  INFO 10524 --- [SimpleAsyncTaskExecutor-1] c.f.testrabbitmq.service.RabbitConsumer  : 接收成功！！！
+2020-12-10 14:30:49.501  INFO 12620 --- [main] c.f.t.TestrabbitmqApplication            : Starting TestrabbitmqApplication on USER-20160710BY with PID 12620 (E:\study-project\testrabbitmq\target\classes started by Administrator in E:\study-project\testrabbitmq)
+2020-12-10 14:30:49.505  INFO 12620 --- [main] c.f.t.TestrabbitmqApplication            : No active profile set, falling back to default profiles: default
+2020-12-10 14:30:50.792  INFO 12620 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$60262d7b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-10 14:30:51.096  INFO 12620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-10 14:30:51.112  INFO 12620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 14:30:51.112  INFO 12620 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-12-10 14:30:51.120  INFO 12620 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;NPM;C:\ProgramData\Oracle\Java\javapath;F:\apache-maven-3.6.0\bin;D:\MySQL\MySQL Server 5.5\bin;C:\Program Files\Java\jdk1.8.0_152\bin;D:\PKPM\EXPPWI;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;D:\MyGit\cmd;D:\TortoiseGit\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;H:\subversion\bin;H:\tortoisesvn\bin;D:\nodejs\;G:\MYSOURCE\selenium;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2020-12-10 14:30:51.223  INFO 12620 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 14:30:51.223  INFO 12620 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1538 ms
+2020-12-10 14:30:51.249  INFO 12620 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-12-10 14:30:51.253  INFO 12620 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-10 14:30:51.253  INFO 12620 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-12-10 14:30:51.253  INFO 12620 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-12-10 14:30:51.254  INFO 12620 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-12-10 14:30:51.529  INFO 12620 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 14:30:51.781  INFO 12620 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.174.133:5672]
+2020-12-10 14:30:51.811  INFO 12620 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#7db0565c:0/SimpleConnection@6edaa77a [delegate=amqp://rabbit@192.168.174.133:5672/, localPort= 51722]
+2020-12-10 14:30:51.999  INFO 12620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-10 14:30:52.004  INFO 12620 --- [main] c.f.t.TestrabbitmqApplication            : Started TestrabbitmqApplication in 3.128 seconds (JVM running for 4.874)
+2020-12-10 14:30:55.580  INFO 12620 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-10 14:30:55.580  INFO 12620 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-10 14:30:55.591  INFO 12620 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-12-10 14:30:55.771  INFO 12620 --- [AMQP Connection 192.168.174.133:5672] c.f.testrabbitmq.config.RabbitMqConfig   : 消息发送成功:correlationData(null),ack(true),cause(null)
+2020-12-10 14:30:55.833  INFO 12620 --- [SimpleAsyncTaskExecutor-1] c.f.testrabbitmq.service.RabbitConsumer  : 接收成功！！！
+2020-12-10 14:31:53.499  INFO 1468 --- [main] c.f.t.TestrabbitmqApplication            : Starting TestrabbitmqApplication on USER-20160710BY with PID 1468 (E:\study-project\testrabbitmq\target\classes started by Administrator in E:\study-project\testrabbitmq)
+2020-12-10 14:31:53.504  INFO 1468 --- [main] c.f.t.TestrabbitmqApplication            : No active profile set, falling back to default profiles: default
+2020-12-10 14:31:54.422  INFO 1468 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$51bd44db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-10 14:31:54.721  INFO 1468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-10 14:31:54.736  INFO 1468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 14:31:54.736  INFO 1468 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-12-10 14:31:54.742  INFO 1468 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;NPM;C:\ProgramData\Oracle\Java\javapath;F:\apache-maven-3.6.0\bin;D:\MySQL\MySQL Server 5.5\bin;C:\Program Files\Java\jdk1.8.0_152\bin;D:\PKPM\EXPPWI;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;D:\MyGit\cmd;D:\TortoiseGit\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;H:\subversion\bin;H:\tortoisesvn\bin;D:\nodejs\;G:\MYSOURCE\selenium;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2020-12-10 14:31:54.846  INFO 1468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 14:31:54.846  INFO 1468 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1236 ms
+2020-12-10 14:31:54.870  INFO 1468 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-12-10 14:31:54.875  INFO 1468 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-10 14:31:54.876  INFO 1468 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-12-10 14:31:54.876  INFO 1468 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-12-10 14:31:54.877  INFO 1468 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-12-10 14:31:55.160  INFO 1468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 14:31:55.417  INFO 1468 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.174.133:5672]
+2020-12-10 14:31:55.446  INFO 1468 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#47d93e0d:0/SimpleConnection@71391b3f [delegate=amqp://rabbit@192.168.174.133:5672/, localPort= 51791]
+2020-12-10 14:31:55.629  INFO 1468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-10 14:31:55.633  INFO 1468 --- [main] c.f.t.TestrabbitmqApplication            : Started TestrabbitmqApplication in 3.05 seconds (JVM running for 4.736)
+2020-12-10 14:32:04.367  INFO 12776 --- [main] c.f.t.TestrabbitmqApplication            : Starting TestrabbitmqApplication on USER-20160710BY with PID 12776 (E:\study-project\testrabbitmq\target\classes started by Administrator in E:\study-project\testrabbitmq)
+2020-12-10 14:32:04.371  INFO 12776 --- [main] c.f.t.TestrabbitmqApplication            : No active profile set, falling back to default profiles: default
+2020-12-10 14:32:05.409  INFO 12776 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8d545bea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-10 14:32:05.707  INFO 12776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-10 14:32:05.730  INFO 12776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 14:32:05.730  INFO 12776 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-12-10 14:32:05.736  INFO 12776 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;NPM;C:\ProgramData\Oracle\Java\javapath;F:\apache-maven-3.6.0\bin;D:\MySQL\MySQL Server 5.5\bin;C:\Program Files\Java\jdk1.8.0_152\bin;D:\PKPM\EXPPWI;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;D:\MyGit\cmd;D:\TortoiseGit\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;H:\subversion\bin;H:\tortoisesvn\bin;D:\nodejs\;G:\MYSOURCE\selenium;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2020-12-10 14:32:05.828  INFO 12776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 14:32:05.828  INFO 12776 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1377 ms
+2020-12-10 14:32:05.860  INFO 12776 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-12-10 14:32:05.865  INFO 12776 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-10 14:32:05.866  INFO 12776 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-12-10 14:32:05.866  INFO 12776 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-12-10 14:32:05.866  INFO 12776 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-12-10 14:32:06.149  INFO 12776 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 14:32:06.432  INFO 12776 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.174.133:5672]
+2020-12-10 14:32:06.465  INFO 12776 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#22680f52:0/SimpleConnection@997d532 [delegate=amqp://rabbit@192.168.174.133:5672/, localPort= 51818]
+2020-12-10 14:32:06.655  INFO 12776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-10 14:32:06.659  INFO 12776 --- [main] c.f.t.TestrabbitmqApplication            : Started TestrabbitmqApplication in 2.932 seconds (JVM running for 5.049)
+2020-12-10 14:32:22.797  INFO 12776 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-10 14:32:22.797  INFO 12776 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-10 14:32:22.804  INFO 12776 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-12-10 14:32:22.846 ERROR 12776 --- [AMQP Connection 192.168.174.133:5672] o.s.a.r.c.CachingConnectionFactory       : Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no exchange 'test-exchange' in vhost '/', class-id=60, method-id=40)
+2020-12-10 14:32:22.848  INFO 12776 --- [pool-3-thread-1] c.f.testrabbitmq.config.RabbitMqConfig   : 消息发送成功:correlationData(null),ack(false),cause(channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no exchange 'test-exchange' in vhost '/', class-id=60, method-id=40))
+2020-12-10 14:33:02.689  INFO 12636 --- [main] c.f.t.TestrabbitmqApplication            : Starting TestrabbitmqApplication on USER-20160710BY with PID 12636 (E:\study-project\testrabbitmq\target\classes started by Administrator in E:\study-project\testrabbitmq)
+2020-12-10 14:33:02.694  INFO 12636 --- [main] c.f.t.TestrabbitmqApplication            : No active profile set, falling back to default profiles: default
+2020-12-10 14:33:03.800  INFO 12636 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$1af1065f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-10 14:33:04.089  INFO 12636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-10 14:33:04.106  INFO 12636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 14:33:04.107  INFO 12636 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-12-10 14:33:04.116  INFO 12636 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;NPM;C:\ProgramData\Oracle\Java\javapath;F:\apache-maven-3.6.0\bin;D:\MySQL\MySQL Server 5.5\bin;C:\Program Files\Java\jdk1.8.0_152\bin;D:\PKPM\EXPPWI;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;D:\MyGit\cmd;D:\TortoiseGit\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;H:\subversion\bin;H:\tortoisesvn\bin;D:\nodejs\;G:\MYSOURCE\selenium;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2020-12-10 14:33:04.223  INFO 12636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 14:33:04.223  INFO 12636 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1479 ms
+2020-12-10 14:33:04.247  INFO 12636 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-12-10 14:33:04.251  INFO 12636 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-10 14:33:04.251  INFO 12636 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-12-10 14:33:04.251  INFO 12636 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-12-10 14:33:04.251  INFO 12636 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-12-10 14:33:04.540  INFO 12636 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 14:33:04.796  INFO 12636 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.174.133:5672]
+2020-12-10 14:33:04.829  INFO 12636 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#33a2499c:0/SimpleConnection@4a29f290 [delegate=amqp://rabbit@192.168.174.133:5672/, localPort= 51885]
+2020-12-10 14:33:05.071  INFO 12636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-10 14:33:05.074  INFO 12636 --- [main] c.f.t.TestrabbitmqApplication            : Started TestrabbitmqApplication in 2.96 seconds (JVM running for 4.596)
+2020-12-10 14:33:31.247  INFO 12636 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-10 14:33:31.247  INFO 12636 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-10 14:33:31.256  INFO 12636 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-12-10 14:33:31.307  INFO 12636 --- [AMQP Connection 192.168.174.133:5672] c.f.testrabbitmq.config.RabbitMqConfig   : 消息发送成功:correlationData(null),ack(true),cause(null)
+2020-12-10 14:34:33.116  INFO 9928 --- [main] c.f.t.TestrabbitmqApplication            : Starting TestrabbitmqApplication on USER-20160710BY with PID 9928 (E:\study-project\testrabbitmq\target\classes started by Administrator in E:\study-project\testrabbitmq)
+2020-12-10 14:34:33.120  INFO 9928 --- [main] c.f.t.TestrabbitmqApplication            : No active profile set, falling back to default profiles: default
+2020-12-10 14:34:34.402  INFO 9928 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$79bdb04e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-10 14:34:34.730  INFO 9928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-10 14:34:34.748  INFO 9928 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 14:34:34.749  INFO 9928 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-12-10 14:34:34.757  INFO 9928 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;NPM;C:\ProgramData\Oracle\Java\javapath;F:\apache-maven-3.6.0\bin;D:\MySQL\MySQL Server 5.5\bin;C:\Program Files\Java\jdk1.8.0_152\bin;D:\PKPM\EXPPWI;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;D:\MyGit\cmd;D:\TortoiseGit\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;H:\subversion\bin;H:\tortoisesvn\bin;D:\nodejs\;G:\MYSOURCE\selenium;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2020-12-10 14:34:34.863  INFO 9928 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 14:34:34.864  INFO 9928 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1509 ms
+2020-12-10 14:34:34.890  INFO 9928 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-12-10 14:34:34.896  INFO 9928 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-10 14:34:34.896  INFO 9928 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-12-10 14:34:34.897  INFO 9928 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-12-10 14:34:34.897  INFO 9928 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-12-10 14:34:35.233  INFO 9928 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 14:34:35.544  INFO 9928 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.174.133:5672]
+2020-12-10 14:34:35.577  INFO 9928 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#46cf05f7:0/SimpleConnection@368d5c00 [delegate=amqp://rabbit@192.168.174.133:5672/, localPort= 51975]
+2020-12-10 14:34:35.804  INFO 9928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-10 14:34:35.807  INFO 9928 --- [main] c.f.t.TestrabbitmqApplication            : Started TestrabbitmqApplication in 3.318 seconds (JVM running for 5.063)
+2020-12-10 14:34:43.747  INFO 9928 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-10 14:34:43.747  INFO 9928 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-10 14:34:43.753  INFO 9928 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-12-10 14:34:43.793  INFO 9928 --- [AMQP Connection 192.168.174.133:5672] c.f.testrabbitmq.config.RabbitMqConfig   : 消息发送成功:correlationData(null),ack(true),cause(null)
+2020-12-10 14:37:38.572  INFO 13120 --- [main] c.f.t.TestrabbitmqApplication            : Starting TestrabbitmqApplication on USER-20160710BY with PID 13120 (E:\study-project\testrabbitmq\target\classes started by Administrator in E:\study-project\testrabbitmq)
+2020-12-10 14:37:38.576  INFO 13120 --- [main] c.f.t.TestrabbitmqApplication            : No active profile set, falling back to default profiles: default
+2020-12-10 14:37:39.812  INFO 13120 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$5d793a0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-10 14:37:40.124  INFO 13120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-10 14:37:40.142  INFO 13120 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 14:37:40.143  INFO 13120 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-12-10 14:37:40.150  INFO 13120 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;NPM;C:\ProgramData\Oracle\Java\javapath;F:\apache-maven-3.6.0\bin;D:\MySQL\MySQL Server 5.5\bin;C:\Program Files\Java\jdk1.8.0_152\bin;D:\PKPM\EXPPWI;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;D:\MyGit\cmd;D:\TortoiseGit\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;H:\subversion\bin;H:\tortoisesvn\bin;D:\nodejs\;G:\MYSOURCE\selenium;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2020-12-10 14:37:40.258  INFO 13120 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 14:37:40.258  INFO 13120 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1588 ms
+2020-12-10 14:37:40.285  INFO 13120 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-12-10 14:37:40.290  INFO 13120 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-10 14:37:40.290  INFO 13120 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-12-10 14:37:40.290  INFO 13120 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-12-10 14:37:40.290  INFO 13120 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-12-10 14:37:40.598  INFO 13120 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 14:37:40.870  INFO 13120 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.174.133:5672]
+2020-12-10 14:37:40.901  INFO 13120 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6058e535:0/SimpleConnection@5b022357 [delegate=amqp://rabbit@192.168.174.133:5672/, localPort= 52156]
+2020-12-10 14:37:41.126  INFO 13120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-10 14:37:41.131  INFO 13120 --- [main] c.f.t.TestrabbitmqApplication            : Started TestrabbitmqApplication in 3.127 seconds (JVM running for 4.722)
+2020-12-10 14:38:50.144  INFO 13120 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-10 14:38:50.144  INFO 13120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-10 14:38:50.151  INFO 13120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-12-10 14:38:50.189  INFO 13120 --- [AMQP Connection 192.168.174.133:5672] c.f.testrabbitmq.config.RabbitMqConfig   : 消息发送成功:correlationData(null),ack(true),cause(null)

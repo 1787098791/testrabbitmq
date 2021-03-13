@@ -2,6 +2,7 @@ package com.freedom.testrabbitmq.service;
 
 
 
+import com.freedom.testrabbitmq.model.Person;
 import com.rabbitmq.client.Channel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,13 +30,14 @@ public class RabbitConsumer {
 
 
     //@RabbitHandler和类上的//@RabbitListener(queues = "hello_queue")一起使用，表示全局监听此队列
-    //@RabbitListener(queues = "hello_queue")
-    public void receive(String str, Channel channel, Message message){
+    @RabbitListener(queues = "hello_queue")
+    public void receive(Person str, Channel channel, Message message){
 
 
         try {
 
-            System.out.println("接收到消息：   "+str);
+            System.out.println("接收到消息：   "+str.toString());
+            System.out.println(new String(message.getBody()));
 
             //成功消费-手动消息确认
             channel.basicAck(message.getMessageProperties().getDeliveryTag(),false);
@@ -83,7 +85,7 @@ public class RabbitConsumer {
 
 
     //监听插件的延时队列
-    @RabbitListener(queues ="delay.queue.demo.delay.queue")
+    /*@RabbitListener(queues ="delay.queue.demo.delay.queue")
     public void delayPluginsReceive(String str, Channel channel, Message message){
         try {
 
@@ -105,6 +107,6 @@ public class RabbitConsumer {
             }
 
         }
-    }
+    }*/
 
 }

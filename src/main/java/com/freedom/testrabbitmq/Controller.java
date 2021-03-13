@@ -33,17 +33,22 @@ public class Controller {
         return "ok";
     }
 
-    @RequestMapping(method = RequestMethod.GET,value = "/testRabbitByPlugins")
+    /*@RequestMapping(method = RequestMethod.GET,value = "/testRabbitByPlugins")
     public String testByPlugins(){
         rabbitProvider.sendByPlugins(10000);
         return "ok";
-    }
+    }*/
 
     public static void main(String[] args) {
         Result result = new Result("hahaha", "500", "good");
         Object o = JSON.toJSON(result);
         String string = JSON.toJSONString(result);
         System.out.println(string);
+    }
+
+    @GetMapping("/test-message")
+    public void testMessage(){
+        rabbitProvider.sendTestMessageConvert();
     }
 
 
